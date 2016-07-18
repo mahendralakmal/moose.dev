@@ -1,0 +1,123 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.home{
+  background-image: url("../images/background-img.png");
+}
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+  margin-top: 5px;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #e88182;
+  /*color: #26a69a;*/
+}
+
+.parallax-container {
+  min-height: 480px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+  margin-bottom: 50px;
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+.teal {
+  background-color: #e88182 !important;
+}
+
+.shop {
+  margin-bottom: 50px;
+}
+.featured{
+  border: 1px solid #d2cfcf;
+  box-shadow: 4px 4px 2px #707075;
+  border-radius: 5px;
+  margin: 6px;
+}
+.featured-div{
+  padding: 10px;
+}
+
+.sub-img, .main-img {
+  border: 1px solid #d2cfcf;
+  box-shadow: 4px 4px 2px #707075;
+  border-radius: 5px;
+}
+
+/*#frm-inq{*/
+  /*padding:185px 50px;*/
+/*}*/
+nav{height: 80px;}
+
+.topic{
+  margin-bottom: 75px;
+}
+
+nav ul .nav-cart a:hover{
+  background-color: #f4a31e;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+nav ul .nav-men a:hover{
+  background-color: #58b7dc;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+nav ul .nav-women a:hover{
+  background-color: #e88182;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+footer input, textarea{
+  margin: 0 !important;
+}
+
+footer h4{
+  color: #ffffff;
+}
+footer textarea{
+  padding: 0 !important;
+  min-height: 7rem !important;
+}
