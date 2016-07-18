@@ -5,7 +5,7 @@
     <ul class="right hide-on-med-and-down">
       <li><a href="./index.php">Home</a></li>
       <li class="nav-women"><a href="women/product-grid.php">Women</a></li>
-      <li class="nav-men"><a href="./men.php">Men</a></li>
+      <li class="nav-men"><a href="./men/pants.php">Men</a></li>
       <li><a href="./about.php">About Us</a></li>
       <li><a href="./contact.php">Contact Us</a></li>
       <li class="nav-cart"><a href="./cart.php"><i class="material-icons">shopping_cart</i></a></li>
