@@ -18,7 +18,7 @@
                     <textarea placeholder="Message" id="msg" rows="4" class="materialize-textarea"></textarea>
                 </div>
                 <div class="col m12 s12">
-                    <button class="btn btn-flat">Submit</button>
+                    <button class="waves-effect waves-light btn">Submit</button>
                 </div>
             </div>
         </form>
@@ -26,6 +26,20 @@
     <div class="footer-copyright">
         <div class="container">
             Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Mahendra Karanduwawala</a>
+            <div class="right">
+            <span class="fa-stack fa-lg">
+              <i class="fa fa-circle-o fa-stack-2x"></i>
+              <i class="fa fa-twitter fa-stack-1x"></i>
+            </span>
+            <span class="fa-stack fa-lg">
+              <i class="fa fa-circle-o fa-stack-2x"></i>
+              <i class="fa fa-facebook fa-stack-1x"></i>
+            </span>
+            <span class="fa-stack fa-lg">
+              <i class="fa fa-circle-o fa-stack-2x"></i>
+              <i class="fa fa-instagram fa-stack-1x "></i>
+            </span>
+            </div>
         </div>
     </div>
 </footer>

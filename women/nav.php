@@ -4,7 +4,7 @@
     <ul class="right hide-on-med-and-down">
       <li><a href="../index.php">Home</a></li>
       <li><a href="product-grid.php">Women</a></li>
-      <li><a href="../men/pants.php">Men</a></li>
+      <li><a href="../men/product-grid.php">Men</a></li>
       <li><a href="../about.php">About Us</a></li>
       <li><a href="../contact.php">Contact Us</a></li>
       <li><a href="../cart.php"><i class="material-icons">shopping_cart</i></a></li>
