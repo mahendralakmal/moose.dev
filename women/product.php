@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="../font-awesome/css/font-awesome.css">
 </head>
 <body>
-  <?php include ('./nav.php');?>
+  <?php include ('../nav.php');?>
 
   <div id="index-banner" class="parallax-container">
     <div class="section no-pad-bot">
