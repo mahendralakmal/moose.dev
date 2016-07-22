@@ -11,32 +11,13 @@
 <body>
   <?php include ('../nav.php');?>
 
-  <div id="index-banner" class="parallax-container">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <!-- <br><br>
-        <h1 class="header center teal-text text-lighten-2">Parallax Template</h1>
-        <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
-        </div>
-        <div class="row center">
-          <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
-        </div>
-        <br><br> -->
-
-      </div>
-    </div>
-    <div class="parallax"><img src="1.jpg" alt="Unsplashed background img 1"></div>
-  </div>
-
-
   <div class="container">
     <div class="section">
 
       <!--   Icon Section   -->
       <div class="col s12 m12 topic">
         <h1>Womens Pants</h1>
-        <h3>Light Brown - 100% Cotton</h3>
+        <h3><i>Light Brown</i> - 100% Cotton</h3>
         <hr>
       </div>
       <div class="row">
@@ -50,9 +31,9 @@
           <img class="responsive-img main-img" src="./images/download-l.jpg">
         </div>
         <div class="col s12 m3">
-          <p>Price : 1000.00</p>
-          <button class="btn btn-flat">Add to cart</button><br><br>
-          <button class="btn btn-flat">Add to watch list</button><br>
+          <p><strong>Price : 1000.00</strong></p>
+          <button class="waves-effect waves-light btn">Add to cart</button><br><br>
+          <button class="waves-effect cyan darken-1 btn">Add to watch list</button><br>
         </div>
       </div>
     </div>
