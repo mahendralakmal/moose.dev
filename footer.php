@@ -49,8 +49,16 @@
         $('.slider').slider('start');
         $('.slider').slider({full_width: true});
     });
+
+</script>
+<script>
+    $('.button-collapse').sideNav({
+        menuWidth: 300,
+        closeOnClick: true
+    });
+    $('.collapsible').collapsible();
 </script>
 
 <!--  Scripts-->
-<script src="js/materialize.js"></script>
-<script src="js/init.js"></script>
+<script src="/js/materialize.js"></script>
+<script src="/js/init.js"></script>

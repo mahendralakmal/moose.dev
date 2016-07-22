@@ -126,6 +126,30 @@ nav img{
   width: 95px;
 }
 
+.side-nav.fixed{
+  transform: translateY(0) !important;
+  position: inherit !important;
+}
+
+/*ul.side-mnu-1 {*/
+  /*box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);*/
+/*}*/
+/*!*ul.side-mnu-1 .dropdown-content {*!*/
+  /*!*top:245px !important;*!*/
+/*!*}*!*/
+
+/*ul.side-mnu-1 li a{*/
+  /*color: #323232;*/
+  /*font-size: 16px;*/
+  /*display: block;*/
+  /*line-height: 22px;*/
+  /*padding: 14px 16px;*/
+/*}*/
+
+/*ul.side-mnu-1 li a:hover{*/
+  /*background-color: rgba(0, 0, 0, 0.1);*/
+  /*color: #ffffff;*/
+/*}*/
 /*.shop img{*/
   /*height: 500px;*/
 /*}*/
