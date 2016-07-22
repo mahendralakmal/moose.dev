@@ -6,10 +6,7 @@
   <title>moose clothing company</title>
 
   <!-- CSS  -->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link rel="stylesheet" href="./font-awesome/css/font-awesome.css">
+  <?php include ('./head-css.php'); ?>
 </head>
 <body class="home">
 
