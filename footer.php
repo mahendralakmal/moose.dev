@@ -1,28 +1,34 @@
 <footer class="page-footer teal">
-    <div class="row  container">
-        <div class="col s12"><h4>Contact Us</h4></div>
-        <form class="col s12" id="frm-inq">
-            <div class="col s12 m6">
-                <div class="input-field col s12">
-                    <input placeholder="First Name" id="first_name" type="text" class="validate">
+    <?php
+    if ($_SERVER['REQUEST_URI'] !== "/contact.php" && $_SERVER['REQUEST_URI'] !== "/contact.php?") {
+        ?>
+        <div class="row  container">
+            <div class="col s12"><h4>Contact Us</h4></div>
+            <form class="col s12" id="frm-inq">
+                <div class="col s12 m6">
+                    <div class="input-field col s12">
+                        <input placeholder="First Name" id="first_name" type="text" class="validate">
+                    </div>
+                    <div class="input-field col s12">
+                        <input placeholder="Last Name" id="last_name" type="text" class="validate">
+                    </div>
+                    <div class="input-field col s12">
+                        <input placeholder="email" id="email" type="email" class="validate">
+                    </div>
                 </div>
-                <div class="input-field col s12">
-                    <input placeholder="Last Name" id="last_name" type="text" class="validate">
+                <div class="col s12 m6">
+                    <div class="input-field col s12">
+                        <textarea placeholder="Message" id="msg" rows="4" class="materialize-textarea"></textarea>
+                    </div>
+                    <div class="col m12 s12">
+                        <button class="waves-effect waves-light btn">Submit</button>
+                    </div>
                 </div>
-                <div class="input-field col s12">
-                    <input placeholder="email" id="email" type="email" class="validate">
-                </div>
-            </div>
-            <div class="col s12 m6">
-                <div class="input-field col s12">
-                    <textarea placeholder="Message" id="msg" rows="4" class="materialize-textarea"></textarea>
-                </div>
-                <div class="col m12 s12">
-                    <button class="waves-effect waves-light btn">Submit</button>
-                </div>
-            </div>
-        </form>
-    </div>
+            </form>
+        </div>
+        <?php
+    }
+    ?>
     <div class="footer-copyright">
         <div class="container">
             Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Mahendra Karanduwawala</a>
