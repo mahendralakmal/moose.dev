@@ -16,26 +16,32 @@
     <div class="section">
       <!--   Icon Section   -->
       <div class="row shop">
-        <div class="col s12 m7">
-          <div class="icon-block">
-            <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
-            <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
-            <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers. We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+        <div class="col m6 s12">
+          <div class="card infograph">
+          <h3>2016</h3>
+          <h4>Moose Clothing Company</h4>
+          <p>Some info graphics here</p>
           </div>
         </div>
-        <div class="col s12 m5">
-          <div class="icon-block">
-            <a href="women/pants.html"><img class="responsive-img" src="./women/2.jpg" alt="Unsplashed background img 1"></a>
+        <div class="col m6 s12">
+          <div class="card infograph">
+            <h3>2015</h3>
+            <h4>Moose Clothing Company</h4>
+            <p>Some info graphics here</p>
           </div>
         </div>
-        <div class="col s12 m12">
-          <div class="icon-block">
-            <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize. We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.
-            We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize. We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.
-            We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
-            <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize. We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.
-              We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize. We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.
-              We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
+        <div class="col m6 s12">
+          <div class="card infograph">
+            <h3>2014</h3>
+            <h4>Moose Clothing Company</h4>
+            <p>Some info graphics here</p>
+          </div>
+        </div>
+        <div class="col m6 s12">
+          <div class="card infograph">
+            <h3>2013</h3>
+            <h4>Moose Clothing Company</h4>
+            <p>Some info graphics here</p>
           </div>
         </div>
       </div>

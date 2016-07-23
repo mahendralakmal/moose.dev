@@ -26,6 +26,11 @@ a{
   color: #444;
 }
 
+.infograph{
+  height:400px;
+  background-color: #e88182;
+  padding: 5px 15px;
+}
 nav ul a,
 nav .brand-logo {
   color: #444;
