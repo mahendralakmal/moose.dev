@@ -6,7 +6,12 @@
   <title>moose clothing company</title>
 
   <!-- CSS  -->
-  <?php include ('./head-css.php'); ?>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="stylesheet" href="./font-awesome/css/font-awesome.css">
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Varela+Round" />
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
 </head>
 <body class="home">
 
@@ -31,6 +36,13 @@
       <li>
         <img src="./men/1.jpg"> <!-- random image -->
         <div class="caption right-align">
+          <h3>Right Aligned Caption</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="./women/girl-frontcrawl.jpg"> <!-- random image -->
+        <div class="caption left-align">
           <h3>Right Aligned Caption</h3>
           <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
         </div>
@@ -61,27 +73,69 @@
       <!--   Icon Section   -->
       <div class="row shop">
         <div class="col s12 m7">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
-            <h5 class="center">Speeds up development</h5>
-            <img class="responsive-img" src="./images/girl-1.jpg" alt="Unsplashed background img 1">
-            <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+          <div class="card">
+            <div class="icon-block">
+              <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
+            </div>
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="responsive-img" src="./images/girl-1.jpg" alt="Unsplashed background img 1">
+            </div>
+            <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4"><h4>Speeds up development</h4><i
+                              class="material-icons right">more_vert</i></span>
+              <p><a href="#">TWe did most of the heavy lifting...</a></p>
+            </div>
+            <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4"><h4>Speeds up development</h4><i
+                              class="material-icons right">close</i></span>
+              <p>We did most of the heavy lifting for you to provide a default stylings that incorporate our
+                custom components. Additionally, we refined animations and transitions to provide a smoother
+                experience for developers.</p>
+            </div>
           </div>
         </div>
         <div class="col s12 m5">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">group</i></h2>
-            <h5 class="center">User Experience Focused</h5>
-            <img class="responsive-img" src="./images/girl-2.jpg" alt="Unsplashed background img 1">
-            <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
+          <div class="card">
+            <div class="icon-block">
+              <h2 class="center brown-text"><i class="material-icons">group</i></h2>
+            </div>
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="responsive-img" src="./images/girl-2.jpg" alt="Unsplashed background img 1">
+            </div>
+            <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4"><h4>User Experience Focused</h4><i
+                              class="material-icons right">more_vert</i></span>
+              <p><a href="#">TWe did most of the heavy lifting...</a></p>
+            </div>
+            <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4"><h4>User Experience Focused</h4><i
+                              class="material-icons right">close</i></span>
+              <p>We did most of the heavy lifting for you to provide a default stylings that incorporate our
+                custom components. Additionally, we refined animations and transitions to provide a smoother
+                experience for developers.</p>
+            </div>
           </div>
         </div>
         <div class="col s12 m5">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
-            <h5 class="center">Easy to work with</h5>
-            <img class="responsive-img" src="./images/cuple.jpg" alt="Unsplashed background img 1">
-            <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
+          <div class="card">
+            <div class="icon-block">
+              <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
+            </div>
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="responsive-img" src="./images/cuple.jpg" alt="Unsplashed background img 1">
+            </div>
+            <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4"><h4>Easy to work with</h4><i
+                              class="material-icons right">more_vert</i></span>
+              <p><a href="#">TWe did most of the heavy lifting...</a></p>
+            </div>
+            <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4"><h4>Easy to work with</h4><i
+                              class="material-icons right">close</i></span>
+              <p>We did most of the heavy lifting for you to provide a default stylings that incorporate our
+                custom components. Additionally, we refined animations and transitions to provide a smoother
+                experience for developers.</p>
+            </div>
           </div>
         </div>
       </div>

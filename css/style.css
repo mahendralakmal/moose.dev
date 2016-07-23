@@ -11,11 +11,19 @@
 }
 
 body{
-  font-family: Open Sans !important;
+  font-family: Open Sans;
 }
 
 h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
-  font-family: Varela Round !important;
+  font-family: Varela Round;
+}
+
+.italic{
+  font-family: Lato !important;
+}
+
+a{
+  color: #444;
 }
 
 nav ul a,

@@ -6,29 +6,15 @@
   <title>moose clothing company</title>
 
   <!-- CSS  -->
-  <?php include ('../head-css.php'); ?>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="../css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="../css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="stylesheet" href="../font-awesome/css/font-awesome.css">
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Varela+Round" />
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
 </head>
 <body>
   <?php include ('../nav.php');?>
-
-  <div id="index-banner" class="parallax-container">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <!-- <br><br>
-        <h1 class="header center teal-text text-lighten-2">Parallax Template</h1>
-        <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
-        </div>
-        <div class="row center">
-          <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
-        </div>
-        <br><br> -->
-
-      </div>
-    </div>
-    <div class="parallax"><img src="1.jpg" alt="Unsplashed background img 1"></div>
-  </div>
-
 
   <div class="container">
     <div class="section">
@@ -36,7 +22,7 @@
       <!--   Icon Section   -->
       <div class="col s12 m12 topic">
         <h1>Womens Pants</h1>
-        <h3>Light Brown - 100% Cotton</h3>
+        <h3><i class="italic">Light Brown</i> - 100% Cotton</h3>
         <hr>
       </div>
       <div class="row">
