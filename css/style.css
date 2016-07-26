@@ -26,6 +26,19 @@ a{
   color: #444;
 }
 
+.pink-text{
+  color: #e88182 !important;
+}
+.green-text{
+  color: #588b4a !important;
+}
+.yellow-text{
+  color: #f4a31e !important;
+}
+.blue-text{
+  color: #58b7dc !important;
+}
+
 .infograph{
   height:400px;
   background-color: #e88182;
@@ -148,6 +161,9 @@ footer h4{
 footer textarea{
   padding: 0 !important;
   min-height: 7rem !important;
+}
+.footer-content{
+  border-left: 1px solid silver;
 }
 
 footer .center-content{

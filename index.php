@@ -13,7 +13,7 @@
   <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Varela+Round" />
   <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
 </head>
-<body class="home">
+<body>
 
   <?php include ('./nav.php'); ?>
 
@@ -72,66 +72,64 @@
     <div class="section">
       <!--   Icon Section   -->
       <div class="row shop">
-        <div class="col s12 m7">
-          <div class="card">
+        <div class="col s12 m6">
+          <div>
             <div class="icon-block">
-              <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
+              <h2 class="center pink-text"><i class="material-icons">flash_on</i></h2>
             </div>
-            <div class="card-image waves-effect waves-block waves-light">
-              <img class="responsive-img" src="./images/girl-1.jpg" alt="Unsplashed background img 1">
+            <div>
+              <img class="responsive-img" src="./images/girl-1.1.jpg" alt="Unsplashed background img 1">
             </div>
-            <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4"><h4>Speeds up development</h4><i
-                              class="material-icons right">more_vert</i></span>
-              <p><a href="#">TWe did most of the heavy lifting...</a></p>
-            </div>
-            <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4"><h4>Speeds up development</h4><i
-                              class="material-icons right">close</i></span>
+            <div>
+              <span><h4>Speeds up development</h4></span>
               <p>We did most of the heavy lifting for you to provide a default stylings that incorporate our
                 custom components. Additionally, we refined animations and transitions to provide a smoother
                 experience for developers.</p>
             </div>
           </div>
         </div>
-        <div class="col s12 m5">
-          <div class="card">
+        <div class="col s12 m6">
+          <div>
             <div class="icon-block">
-              <h2 class="center brown-text"><i class="material-icons">group</i></h2>
+              <h2 class="center green-text"><i class="material-icons">new_releases</i></h2>
             </div>
-            <div class="card-image waves-effect waves-block waves-light">
+            <div>
               <img class="responsive-img" src="./images/girl-2.jpg" alt="Unsplashed background img 1">
             </div>
-            <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4"><h4>User Experience Focused</h4><i
-                              class="material-icons right">more_vert</i></span>
-              <p><a href="#">TWe did most of the heavy lifting...</a></p>
-            </div>
-            <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4"><h4>User Experience Focused</h4><i
-                              class="material-icons right">close</i></span>
+            <div>
+              <span><h4>Speeds up development</h4></span>
               <p>We did most of the heavy lifting for you to provide a default stylings that incorporate our
                 custom components. Additionally, we refined animations and transitions to provide a smoother
                 experience for developers.</p>
             </div>
           </div>
         </div>
-        <div class="col s12 m5">
-          <div class="card">
+        <div class="col s12 m6">
+          <div>
             <div class="icon-block">
-              <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
+              <h2 class="center yellow-text"><i class="material-icons">perm_identity</i></h2>
             </div>
-            <div class="card-image waves-effect waves-block waves-light">
-              <img class="responsive-img" src="./images/cuple.jpg" alt="Unsplashed background img 1">
+            <div>
+              <img class="responsive-img" src="./images/girl-3.1.jpg" alt="Unsplashed background img 1">
             </div>
-            <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4"><h4>Easy to work with</h4><i
-                              class="material-icons right">more_vert</i></span>
-              <p><a href="#">TWe did most of the heavy lifting...</a></p>
+            <div>
+              <span><h4>Speeds up development</h4></span>
+              <p>We did most of the heavy lifting for you to provide a default stylings that incorporate our
+                custom components. Additionally, we refined animations and transitions to provide a smoother
+                experience for developers.</p>
             </div>
-            <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4"><h4>Easy to work with</h4><i
-                              class="material-icons right">close</i></span>
+          </div>
+        </div>
+        <div class="col s12 m6">
+          <div>
+            <div class="icon-block">
+              <h2 class="center blue-text"><i class="material-icons">polymer</i></h2>
+            </div>
+            <div>
+              <img class="responsive-img" src="./images/girl-5.jpg" alt="Unsplashed background img 1">
+            </div>
+            <div>
+              <span><h4>Speeds up development</h4></span>
               <p>We did most of the heavy lifting for you to provide a default stylings that incorporate our
                 custom components. Additionally, we refined animations and transitions to provide a smoother
                 experience for developers.</p>

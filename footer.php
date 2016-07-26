@@ -2,7 +2,7 @@
     <?php
     if ($_SERVER['REQUEST_URI'] !== "/contact.php" && $_SERVER['REQUEST_URI'] !== "/contact.php?") {
         ?>
-        <div class="row">
+        <div class="row container">
             <div class="col s12"><h4>Contact Us</h4></div>
             <div class="col m4">
                 <form id="frm-inq">
@@ -20,7 +20,7 @@
                     </div>
                 </form>
             </div>
-            <div class="col m4">
+            <div class="col m4 footer-content">
                 <div class="col m12 s12 center-content">
                     <p>Making and selling great clothes for great people!</p>
                     <p>409–1 Galle Road, Colombo 3</p>
@@ -33,7 +33,7 @@
                     <span class="fa-stack fa-lg"><i class="fa fa-instagram fa-stack-2x "></i></span>
                 </div>
             </div>
-            <div class="col m4 right-content">
+            <div class="col m4 footer-content right-content">
                 <div class="lst">
                     <p>409–1 Galle Road, Colombo 3</p>
                     <p>mooseclothingcompany.com</p>
