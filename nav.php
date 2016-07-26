@@ -8,7 +8,7 @@
       <li class="nav-men"><a href="/men/product-grid.php">Men</a></li>
       <li><a href="/about.php">About Us</a></li>
       <li><a href="/contact.php">Contact Us</a></li>
-      <li class="nav-cart"><a href="./cart.php"><i class="material-icons">shopping_cart</i></a></li>
+      <li class="nav-cart cart"><a href="./cart.php"><i class="material-icons">shopping_cart</i></a></li>
     </ul>
 
     <ul id="nav-mobile" class="side-nav">

@@ -119,9 +119,12 @@ nav{height: 80px;}
   margin-bottom: 75px;
 }
 
+nav ul .nav-cart a{
+  color: #e88182;
+}
 nav ul .nav-cart a:hover{
-  background-color: #f4a31e;
-  color: #FFFFFF;
+  /*background-color: #f4a31e;*/
+  color: #e88182;
   font-weight: bold;
 }
 nav ul .nav-men a:hover{
@@ -147,6 +150,28 @@ footer textarea{
   min-height: 7rem !important;
 }
 
+footer .center-content{
+  color: #cccccc;
+  margin-bottom: 20px;
+}
+
+footer .center-content-bottom{
+  color: #CCCCCC;
+  margin-top: 20px;
+}
+
+footer .center-content-bottom .fa-stack{
+  margin-right: 30px;
+}
+
+footer .right-content{
+  color: #CCCCCC;
+}
+
+footer .right-content .lst{
+  padding: 0;
+}
+
 nav img{
   width: 95px;
 }
@@ -156,6 +181,9 @@ nav img{
   position: inherit !important;
 }
 
+.cart{
+  color: #e88182;
+}
 /*ul.side-mnu-1 {*/
   /*box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);*/
 /*}*/
