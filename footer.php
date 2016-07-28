@@ -1,8 +1,5 @@
 <footer class="page-footer teal">
-    <?php
-    if ($_SERVER['REQUEST_URI'] !== "/contact.php" && $_SERVER['REQUEST_URI'] !== "/contact.php?") {
-        ?>
-        <div class="row container">
+        <div class="row">
             <div class="col s12"><h4>Contact Us</h4></div>
             <div class="col m4">
                 <form id="frm-inq">
@@ -35,20 +32,17 @@
             </div>
             <div class="col m4 footer-content right-content">
                 <div class="lst">
-                    <p>409–1 Galle Road, Colombo 3</p>
-                    <p>mooseclothingcompany.com</p>
-                    <p>+94773 675 440 / 0112692704</p>
+                    <p>409–1 Galle Road, Colombo 3, Sri Lanka<br>
+                        mooseclothingcompany.com<br>
+                        +94773 675 440 / 0112692704</p>
                 </div>
                 <div class="lst">
-                    <p>409–1 Galle Road, Colombo 3</p>
-                    <p>mooseclothingcompany.com</p>
-                    <p>+94773 675 440 / 0112692704</p>
+                    <p>409–1 Galle Road, Colombo 3, Sri Lanka<br>
+                        mooseclothingcompany.com<br>
+                        +94773 675 440 / 0112692704</p>
                 </div>
             </div>
         </div>
-        <?php
-    }
-    ?>
     <div class="footer-copyright">
         <div class="container">
             Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Mahendra Karanduwawala</a>
@@ -62,7 +56,6 @@
         $('.slider').slider('start');
         $('.slider').slider({full_width: true});
     });
-
 </script>
 <script>
     $('.button-collapse').sideNav({

@@ -15,36 +15,38 @@
 </head>
 <body>
 
-  <?php include ('./nav.php'); ?>
+  <?php
+  include ('./nav.php'); 
+  ?>
 
   <div class="slider">
     <ul class="slides">
       <li>
         <img src="./images/background1.jpg"> <!-- random image -->
-        <div class="caption center-align">
+        <div class="caption center-align pink-text">
           <h3>This is our big Tagline!</h3>
-          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+          <h5 class="light pink-text text-lighten-3">Here's our small slogan.</h5>
         </div>
       </li>
       <li>
         <img src="./images/girl-3.jpg"> <!-- random image -->
-        <div class="caption left-align">
+        <div class="caption left-align green-text">
           <h3>Left Aligned Caption</h3>
-          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-        </div>
-      </li>
-      <li>
-        <img src="./men/1.jpg"> <!-- random image -->
-        <div class="caption right-align">
-          <h3>Right Aligned Caption</h3>
-          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+          <h5 class="light green-text text-lighten-3">Here's our small slogan.</h5>
         </div>
       </li>
       <li>
         <img src="./women/girl-frontcrawl.jpg"> <!-- random image -->
-        <div class="caption left-align">
+        <div class="caption right-align yellow-text">
           <h3>Right Aligned Caption</h3>
-          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+          <h5 class="light yellow-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="./men/1.jpg"> <!-- random image -->
+        <div class="caption left-align blue-text">
+          <h3>Right Aligned Caption</h3>
+          <h5 class="light blue-text text-lighten-3">Here's our small slogan.</h5>
         </div>
       </li>
     </ul>
