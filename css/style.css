@@ -14,7 +14,7 @@ body{
   font-family: Open Sans;
 }
 
-h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6, nav ul li a{
   font-family: Varela Round;
 }
 
@@ -132,24 +132,55 @@ nav{height: 80px;}
   margin-bottom: 75px;
 }
 
-nav ul .nav-cart a{
-  color: #e88182;
-}
-nav ul .nav-cart a:hover{
-  /*background-color: #f4a31e;*/
-  color: #e88182;
+nav ul .nav-home a:hover,
+nav ul .nav-women a:hover,
+nav ul .nav-men a:hover,
+nav ul .nav-home a:focus,
+nav ul .nav-women a:focus,
+nav ul .nav-men a:focus,
+nav ul .nav-about:hover,
+nav ul .nav-contact:hover,
+nav ul .nav-cart:hover,
+nav ul .nav-about:focus,
+nav ul .nav-contact:focus,
+nav ul .nav-cart:focus
+{
   font-weight: bold;
 }
-nav ul .nav-men a:hover{
-  background-color: #58b7dc;
-  color: #FFFFFF;
-  font-weight: bold;
+
+nav ul .nav-home:hover, nav ul .nav-home:focus,
+nav ul .nav-contact:hover, nav ul .nav-contact:focus{
+  border-bottom: 3px solid #e88182;
 }
-nav ul .nav-women a:hover{
-  background-color: #e88182;
-  color: #FFFFFF;
-  font-weight: bold;
+
+nav ul .nav-women:hover, nav ul .nav-women:focus,
+nav ul .nav-cart:hover, nav ul .nav-cart:focus{
+  border-bottom: 3px solid #588b4a;
 }
+
+nav ul .nav-men:hover, nav ul .nav-men:focus{
+  border-bottom: 3px solid #f4a31e;
+}
+
+nav ul .nav-about:hover, nav ul .nav-about:focus{
+  border-bottom: 3px solid #58b7dc;
+}
+
+/*nav ul .nav-cart a:hover{*/
+  /*!*background-color: #f4a31e;*!*/
+  /*color: #e88182;*/
+  /*font-weight: bold;*/
+/*}*/
+/*nav ul .nav-men a:hover{*/
+  /*background-color: #58b7dc;*/
+  /*color: #FFFFFF;*/
+  /*font-weight: bold;*/
+/*}*/
+/*nav ul .nav-women a:hover{*/
+  /*background-color: #e88182;*/
+  /*color: #FFFFFF;*/
+  /*font-weight: bold;*/
+/*}*/
 
 footer input, textarea{
   margin: 0 !important;
@@ -207,3 +238,12 @@ nav img{
 .slider .indicators{
   bottom: 10px;
 }
+
+.side-nav a.waves-effect.waves-teal:hover,
+.side-nav a.waves-effect.waves-teal:focus,
+.side-nav a.collapsible-header.waves-effect.waves-teal:hover,
+.side-nav a.collapsible-header.waves-effect.waves-teal:focus{
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
