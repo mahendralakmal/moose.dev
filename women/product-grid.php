@@ -18,7 +18,7 @@
 
 <div class="row">
     <div class="col m3 s12">
-        <?php include('../left-v-nav.php'); ?>
+        &nbsp;<?php include('../left-v-nav.php'); ?>
     </div>
     <div class="section col m9 s12">
         <div class="row">
