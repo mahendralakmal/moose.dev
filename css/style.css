@@ -166,6 +166,9 @@ nav ul .nav-about:hover, nav ul .nav-about:focus{
   border-bottom: 3px solid #58b7dc;
 }
 
+nav ul .nav-cart {
+  line-height: 0px;
+}
 /*nav ul .nav-cart a:hover{*/
   /*!*background-color: #f4a31e;*!*/
   /*color: #e88182;*/
