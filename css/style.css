@@ -26,6 +26,14 @@ a{
   color: #444;
 }
 
+
+/*.card .card-image:hover{*/
+/*border: 1px solid red;*/
+/*}*/
+/*.card .card-image:hover .quick{*/
+  /*display:block !important;*/
+/*}*/
+
 .pink-text{
   color: #e88182 !important;
 }
@@ -245,3 +253,20 @@ nav img{
   text-decoration: underline;
 }
 
+.quickview{
+  position:absolute;
+  margin-top:50%;
+  left: 20%;
+  right: 70px;
+  display:none;
+}
+
+.card .quickview a{
+  width: 70%;
+  background:#f4a31e;
+  text-align: center;
+  padding: 20px;
+}
+.card .quickview a{
+  color: #FFFFFF;
+}

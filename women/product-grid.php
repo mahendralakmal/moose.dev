@@ -22,54 +22,75 @@
     </div>
     <div class="section col m9 s12">
         <div class="row">
-            <div class="col m6 s12"><a href="../women/product.php">
+            <div class="col m6 s12">                
+                <a href="../women/product.php">
                     <div class="card">
+                        <div class="quickview"><a class="waves-effect waves-light modal-trigger" href="#modal1">&nbsp;QUICK VIEW&nbsp;</a></div>
                         <div class="card-image"><img src="../women/images/download%20(1).jpeg"></div>
                         <div class="card-content center"><strong>NEW! any size<br>rs750.00</strong></div>
                     </div>
-                </a></div>
-            <div class="col m6 s12"><a href="../women/product.php">
-                    <div class="card">
+                </a>
+                <div id="modal1" class="modal">
+                    <div class="modal-content">
+                        <h4>Modal Header</h4>
+                        <p>A bunch of text</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col m6 s12">
+                <a href="../women/product.php">
+                    <div class="card"><div class="quickview"><a class="waves-effect waves-light modal-trigger" href="#modal1">&nbsp;QUICK VIEW&nbsp;</a></div>
                         <div class="card-image"><img src="../women/images/download%20(2).jpeg"></div>
                         <div class="card-content center"><strong>NEW! size 30, 32, 34, 36 only<br>rs1750.00</strong>
                         </div>
                     </div>
-                </a></div>
-            <div class="col m6 s12"><a href="../women/product.php">
-                    <div class="card">
+                </a>
+            </div>
+            <div class="col m6 s12">
+                <a href="../women/product.php">
+                    <div class="card"><div class="quickview"><a class="waves-effect waves-light modal-trigger" href="#modal1">&nbsp;QUICK VIEW&nbsp;</a></div>
                         <div class="card-image"><img src="../women/images/download%20(3).jpeg"></div>
                         <div class="card-content center"><strong>NEW! size 30, 32, 34, 36 only<br>rs1750.00</strong>
                         </div>
                     </div>
-                </a></div>
-            <div class="col m6 s12"><a href="../women/product.php">
-                    <div class="card">
+                </a>
+            </div>
+            <div class="col m6 s12">
+                <a href="../women/product.php">
+                    <div class="card"><div class="quickview"><a class="waves-effect waves-light modal-trigger" href="#modal1">&nbsp;QUICK VIEW&nbsp;</a></div>
                         <div class="card-image"><img src="../women/images/download%20(4).jpeg"></div>
                         <div class="card-content center"><strong>NEW! size 30, 32, 34, 36 only<br>rs1750.00</strong>
                         </div>
                     </div>
-                </a></div>
-            <div class="col m6 s12"><a href="../women/product.php">
-                    <div class="card">
+                </a>
+            </div>
+            <div class="col m6 s12">
+                <a href="../women/product.php">
+                    <div class="card"><div class="quickview"><a class="waves-effect waves-light modal-trigger" href="#modal1">&nbsp;QUICK VIEW&nbsp;</a></div>
                         <div class="card-image"><img src="../women/images/download%20(5).jpeg"></div>
                         <div class="card-content center"><strong>NEW! size 30, 32, 34, 36 only<br>rs1750.00</strong>
                         </div>
                     </div>
-                </a></div>
-            <div class="col m6 s12"><a href="../women/product.php">
-                    <div class="card">
+                </a>
+            </div>
+            <div class="col m6 s12">
+                <a href="../women/product.php">
+                    <div class="card"><div class="quickview"><a class="waves-effect waves-light modal-trigger" href="#modal1">&nbsp;QUICK VIEW&nbsp;</a></div>
                         <div class="card-image"><img src="../women/images/download%20(6).jpeg"></div>
                         <div class="card-content center"><strong>NEW! size 30, 32, 34, 36 only<br>rs1750.00</strong>
                         </div>
                     </div>
-                </a></div>
-            <div class="col m6 s12"><a href="../women/product.php">
-                    <div class="card">
+                </a>
+            </div>
+            <div class="col m6 s12">
+                <a href="../women/product.php">
+                    <div class="card"><div class="quickview"><a class="waves-effect waves-light modal-trigger" href="#modal1">&nbsp;QUICK VIEW&nbsp;</a></div>
                         <div class="card-image"><img src="../women/images/download%20(7).jpeg"></div>
                         <div class="card-content center"><strong>NEW! size 30, 32, 34, 36 only<br>rs1750.00</strong>
                         </div>
                     </div>
-                </a></div>
+                </a>
+            </div>
         </div>
     </div>
 </div>
