@@ -270,3 +270,29 @@ nav img{
 .card .quickview a{
   color: #FFFFFF;
 }
+
+.color-block {
+  height: 40px;
+  width: 40px;
+  margin: 5px;
+}
+
+.color-section{
+  border-top: 1px #999999 dotted;
+  padding-top: 10px;
+}
+
+.color-section .sep{
+  padding: 10px;
+}
+
+span.size-block {
+  padding: 7px;
+  border: 1px solid silver;
+  margin-top: 10px;
+}
+
+.modal {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
