@@ -97,6 +97,14 @@
                                 </div>
                             </div>
                             <br>
+                            <h6>Price</h6>
+                            <div class="row price-section">
+                                H/Sale : Rs1000
+                                <br>
+                                <br>
+                                <a href="#">Add to cart</a><br>
+                                <a href="#">Add to watch list</a>
+                            </div>
                         </div>
                     </div>
                 </div>

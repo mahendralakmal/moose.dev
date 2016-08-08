@@ -24,10 +24,10 @@
                     <p>mooseclothingcompany.com</p>
                     <p>+94773 675 440 / 0112692704</p>
                 </div>
-                <div class="col m12 s12 center-content-bottom">
-                    <span class="fa-stack fa-lg"><i class="fa fa-twitter fa-stack-2x"></i></span>
-                    <span class="fa-stack fa-lg"><i class="fa fa-facebook fa-stack-2x"></i></span>
-                    <span class="fa-stack fa-lg"><i class="fa fa-instagram fa-stack-2x "></i></span>
+                <div class="col m12 s12 center-content-bottom row">
+                    <span class="fa-stack fa-lg col s4"><i class="fa fa-twitter fa-stack-2x left"></i></span>
+                    <span class="fa-stack fa-lg col s4 center"><i class="fa fa-facebook fa-stack-2x center"></i></span>
+                    <span class="fa-stack fa-lg col s4"><i class="fa fa-instagram fa-stack-2x right"></i></span>
                 </div>
             </div>
             <div class="col m4 footer-content right-content">

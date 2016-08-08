@@ -19,20 +19,23 @@
   <div class="container">
     <div class="section">
 
-      <div class="modal-content">
-        <h4>Quick View</h4><hr>
-        <div class="col m4 s12">
-          <div class="col m12">
-            <img class="responsive-img main-img" src="./images/download-l.jpg">
-          </div>
-          <div class="col m12">
-            <img class="sub-img" width="58" src="./images/download.jpeg">
-            <img class="sub-img" width="58" src="./images/download%20(3).jpeg">
-            <img class="sub-img" width="58" src="./images/download%20(4).jpeg">
-            <img class="sub-img" width="58" src="./images/download%20(5).jpeg">
-          </div>
+      <!--   Icon Section   -->
+      <div class="col s12 m12 topic">
+        <h1>Womens Pants</h1>
+        <h3><i class="italic">Light Brown</i> - 100% Cotton</h3>
+        <hr>
+      </div>
+      <div class="row">
+        <div class="col s12 m1">
+          <img class="sub-img" width="100" src="./images/download.jpeg">
+          <img class="sub-img" width="100" src="./images/download%20(3).jpeg">
+          <img class="sub-img" width="100" src="./images/download%20(4).jpeg">
+          <img class="sub-img" width="100" src="./images/download%20(5).jpeg">
         </div>
-        <div class="col m8 s12">
+        <div class="col s12 m5">
+          <img class="responsive-img main-img" src="./images/download-l.jpg">
+        </div>
+        <div class="col s12 m6">
           <h4>AAAAAA BBBBBBBB</h4>
           <br>
           <h6>Colors</h6>
@@ -81,6 +84,9 @@
             </div>
           </div>
           <br>
+          <p>Price : 1000.00</p>
+          <button>Add to cart</button><br><br>
+          <button>Add to watch list</button><br>
         </div>
       </div>
     </div>
