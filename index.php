@@ -60,9 +60,9 @@
             <div class="icon-block">
               <h2 class="center pink-text"><i class="material-icons">flash_on</i></h2>
             </div>
-            <div>
-              <img class="responsive-img" src="./images/girl-1.1.jpg" alt="Unsplashed background img 1">
-            </div>
+<!--            <div>-->
+<!--              <img class="responsive-img" src="./images/girl-1.1.jpg" alt="Unsplashed background img 1">-->
+<!--            </div>-->
             <div>
               <span><h4>Speeds up development</h4></span>
               <p>We did most of the heavy lifting for you to provide a default stylings that incorporate our
@@ -76,9 +76,9 @@
             <div class="icon-block">
               <h2 class="center green-text"><i class="material-icons">new_releases</i></h2>
             </div>
-            <div>
-              <img class="responsive-img" src="./images/girl-2.jpg" alt="Unsplashed background img 1">
-            </div>
+<!--            <div>
+                  <img class="responsive-img" src="./images/girl-2.jpg" alt="Unsplashed background img 1">
+                </div>-->
             <div>
               <span><h4>Speeds up development</h4></span>
               <p>We did most of the heavy lifting for you to provide a default stylings that incorporate our
@@ -92,9 +92,9 @@
             <div class="icon-block">
               <h2 class="center yellow-text"><i class="material-icons">perm_identity</i></h2>
             </div>
-            <div>
+            <!-- <div>
               <img class="responsive-img" src="./images/girl-3.1.jpg" alt="Unsplashed background img 1">
-            </div>
+            </div> -->
             <div>
               <span><h4>Speeds up development</h4></span>
               <p>We did most of the heavy lifting for you to provide a default stylings that incorporate our
@@ -108,9 +108,9 @@
             <div class="icon-block">
               <h2 class="center blue-text"><i class="material-icons">polymer</i></h2>
             </div>
-            <div>
+            <!-- <div>
               <img class="responsive-img" src="./images/girl-5.jpg" alt="Unsplashed background img 1">
-            </div>
+            </div> -->
             <div>
               <span><h4>Speeds up development</h4></span>
               <p>We did most of the heavy lifting for you to provide a default stylings that incorporate our
