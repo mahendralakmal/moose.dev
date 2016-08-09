@@ -255,18 +255,18 @@ nav img{
 
 .quickview{
   position:absolute;
-  margin-top:50%;
+  margin-top:60%;
   left: 20%;
-  right: 70px;
+  right: -15px;
   display:none;
 }
 
 .card .quickview a{
-  width: 70%;
-  background:#f4a31e;
+  width: 75%;
+  background:#e88182;
   text-align: center;
-  padding: 20px;
-  border: 1px solid #e88182;
+  padding: 7px;
+  /*border: 1px solid #e88182;*/
 }
 .card .quickview a{
   color: #FFFFFF;
