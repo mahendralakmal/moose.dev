@@ -13,7 +13,7 @@
                         <textarea placeholder="Message" id="msg" rows="4" class="materialize-textarea"></textarea>
                     </div>
                     <div class="col m12 s12">
-                        <button class="waves-light btn">Submit</button>
+                        <button class="btn">Submit</button>
                     </div>
                 </form>
             </div>

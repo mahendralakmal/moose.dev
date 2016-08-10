@@ -120,12 +120,15 @@ footer.page-footer {
 .featured-div{
   padding: 10px;
 }
-
-.sub-img, .main-img {
-  border: 1px solid #d2cfcf;
-  box-shadow: 4px 4px 2px #707075;
-  border-radius: 5px;
+img.responsive-img {
+  max-width: 95%;
+  height: auto;
 }
+/*.sub-img, .main-img {*/
+  /*border: 1px solid #d2cfcf;*/
+  /*box-shadow: 4px 4px 2px #707075;*/
+  /*border-radius: 5px;*/
+/*}*/
 
 .contact-per{
   padding: 50px 0;
@@ -140,41 +143,65 @@ nav{height: 80px;}
   margin-bottom: 75px;
 }
 
-nav ul .nav-home a:hover,
-nav ul .nav-women a:hover,
-nav ul .nav-men a:hover,
-nav ul .nav-home a:focus,
-nav ul .nav-women a:focus,
-nav ul .nav-men a:focus,
-nav ul .nav-about:hover,
-nav ul .nav-contact:hover,
-nav ul .nav-cart:hover,
-nav ul .nav-about:focus,
-nav ul .nav-contact:focus,
-nav ul .nav-cart:focus
+nav ul .home a:hover,
+nav ul .women a:hover,
+nav ul .men a:hover,
+nav ul .home a:focus,
+nav ul .women a:focus,
+nav ul .men a:focus,
+nav ul .about:hover,
+nav ul .contact:hover,
+nav ul .cart:hover,
+nav ul .about:focus,
+nav ul .contact:focus,
+nav ul .cart:focus
 {
   font-weight: bold;
 }
 
-nav ul .nav-home:hover, nav ul .nav-home:focus,
-nav ul .nav-contact:hover, nav ul .nav-contact:focus{
+nav ul .home:hover, nav ul .home:focus,
+nav ul .contact:hover, nav ul .contact:focus{
   border-bottom: 3px solid #e88182;
 }
 
-nav ul .nav-women:hover, nav ul .nav-women:focus,
-nav ul .nav-cart:hover, nav ul .nav-cart:focus{
+nav ul .women:hover, nav ul .women:focus,
+nav ul .cart:hover, nav ul .cart:focus{
   border-bottom: 3px solid #588b4a;
 }
 
-nav ul .nav-men:hover, nav ul .nav-men:focus{
+nav ul .men:hover, nav ul .men:focus{
   border-bottom: 3px solid #f4a31e;
 }
 
-nav ul .nav-about:hover, nav ul .nav-about:focus{
+nav ul .about:hover, nav ul .about:focus{
   border-bottom: 3px solid #58b7dc;
 }
+.active{
+  border-bottom: 3px solid #e88182 !important;
+  font-weight: bold ;
+}
+/*#contact .active{*/
+  /*border-bottom: 3px solid #e88182;*/
+  /*font-weight: bold;*/
+/*}*/
+/*#women .active{*/
+  /*border-bottom: 3px solid #588b4a;*/
+  /*font-weight: bold;*/
+/*}*/
+/*#cart .active{*/
+  /*border-bottom: 3px solid #588b4a;*/
+  /*font-weight: bold;*/
+/*}*/
+/*#men .active{*/
+  /*border-bottom: 3px solid #f4a31e;*/
+  /*font-weight: bold;*/
+/*}*/
+/*#about .active{*/
+  /*border-bottom: 3px solid #58b7dc;*/
+  /*font-weight: bold;*/
+/*}*/
 
-nav ul .nav-cart {
+nav ul .cart {
   line-height: 0px;
 }
 .lv-nav .collapsible-body p {
@@ -273,9 +300,11 @@ nav img{
 }
 
 .color-block {
-  height: 40px;
-  width: 40px;
-  margin: 5px;
+  /*height: 40px;*/
+  /*width: 40px;*/
+  /*margin: 5px;*/
+  padding: 7px;
+  line-height: 2.6;
 }
 
 .color-section{
@@ -290,7 +319,8 @@ nav img{
 span.size-block {
   padding: 7px;
   border: 1px solid silver;
-  margin-top: 10px;
+  /*margin-top: 10px;*/
+  line-height: 3;
 }
 
 .modal {
@@ -300,4 +330,8 @@ span.size-block {
 
 .price-section a{
 
+}
+button.btn:hover {
+  box-shadow: none !important;
+  font-weight: bold;
 }

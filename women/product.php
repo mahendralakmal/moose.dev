@@ -3,7 +3,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
-  <title>moose clothing company</title>
+  <title>moose clothing company::women</title>
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -27,10 +27,10 @@
       </div>
       <div class="row">
         <div class="col s12 m1">
-          <img class="sub-img" width="100" src="./images/download.jpeg">
-          <img class="sub-img" width="100" src="./images/download%20(3).jpeg">
-          <img class="sub-img" width="100" src="./images/download%20(4).jpeg">
-          <img class="sub-img" width="100" src="./images/download%20(5).jpeg">
+          <img class="sub-img" width="75" src="./images/download.jpeg">
+          <img class="sub-img" width="75" src="./images/download%20(3).jpeg">
+          <img class="sub-img" width="75" src="./images/download%20(4).jpeg">
+          <img class="sub-img" width="75" src="./images/download%20(5).jpeg">
         </div>
         <div class="col s12 m5">
           <img class="responsive-img main-img" src="./images/download-l.jpg">
@@ -41,31 +41,27 @@
           <h6>Colors</h6>
           <div class="row color-section">
             <div class="col m8 sep">
-              <span class="color-block red">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-              <span class="color-block blue">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-              <span class="color-block yellow">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-              <span class="color-block brown">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-              <span class="color-block green">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-              <span class="color-block pink">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-              <span class="color-block purple">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-              <span class="color-block red">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-              <span class="color-block blue">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-              <span class="color-block yellow">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-            </div>
-            <div class="col m8sep">
-              <span class="color-block brown">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-              <span class="color-block green">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-              <span class="color-block pink">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-              <span class="color-block purple">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-              <span class="color-block red">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-              <span class="color-block blue">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-              <span class="color-block yellow">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-              <span class="color-block brown">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-              <span class="color-block green">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-              <span class="color-block pink">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-            </div>
-            <div class="col m8 sep">
-              <span class="color-block purple">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+              <span class="color-block red"><a href="#" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></span>
+              <span class="color-block blue"><a href="#" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></span>
+              <span class="color-block yellow"><a href="#" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></span>
+              <span class="color-block brown"><a href="#" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></span>
+              <span class="color-block green"><a href="#" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></span>
+              <span class="color-block pink"><a href="#" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></span>
+              <span class="color-block purple"><a href="#" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></span>
+              <span class="color-block red"><a href="#" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></span>
+              <span class="color-block blue"><a href="#" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></span>
+              <span class="color-block yellow"><a href="#" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></span>
+              <span class="color-block brown"><a href="#" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></span>
+              <span class="color-block green"><a href="#" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></span>
+              <span class="color-block pink"><a href="#" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></span>
+              <span class="color-block purple"><a href="#" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></span>
+              <span class="color-block red"><a href="#" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></span>
+              <span class="color-block blue"><a href="#" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></span>
+              <span class="color-block yellow"><a href="#" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></span>
+              <span class="color-block brown"><a href="#" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></span>
+              <span class="color-block green"><a href="#" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></span>
+              <span class="color-block pink"><a href="#" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></span>
+              <span class="color-block purple"><a href="#" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></span>
             </div>
           </div>
           <br>
