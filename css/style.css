@@ -169,30 +169,36 @@ nav ul .men:hover, nav ul .men:focus{
 nav ul .about:hover, nav ul .about:focus{
   border-bottom: 3px solid #58b7dc;
 }
-.active{
+.home.active{
   border-bottom: 3px solid #e88182 !important;
   font-weight: bold ;
+  background-color: transparent !important;
 }
-/*#contact .active{*/
-  /*border-bottom: 3px solid #e88182;*/
-  /*font-weight: bold;*/
-/*}*/
-/*#women .active{*/
-  /*border-bottom: 3px solid #588b4a;*/
-  /*font-weight: bold;*/
-/*}*/
-/*#cart .active{*/
-  /*border-bottom: 3px solid #588b4a;*/
-  /*font-weight: bold;*/
-/*}*/
-/*#men .active{*/
-  /*border-bottom: 3px solid #f4a31e;*/
-  /*font-weight: bold;*/
-/*}*/
-/*#about .active{*/
-  /*border-bottom: 3px solid #58b7dc;*/
-  /*font-weight: bold;*/
-/*}*/
+.contact.active{
+  border-bottom: 3px solid #e88182;
+  font-weight: bold;
+  background-color: transparent !important;
+}
+.women.active{
+  border-bottom: 3px solid #588b4a;
+  font-weight: bold;
+  background-color: transparent !important;
+}
+.cart.active{
+  border-bottom: 3px solid #588b4a;
+  font-weight: bold;
+  background-color: transparent !important;
+}
+.men.active{
+  border-bottom: 3px solid #f4a31e;
+  font-weight: bold;
+  background-color: transparent !important;
+}
+.about.active{
+  border-bottom: 3px solid #58b7dc;
+  font-weight: bold;
+  background-color: transparent !important;
+}
 
 nav ul .cart {
   line-height: 0px;

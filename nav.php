@@ -3,7 +3,7 @@
     <a id="logo-container" href="/" class="brand-logo"><img src="/images/Moose_CC_Logo_23May2016.png" alt="Logo"></a>
 <!--    <a id="logo-container" href="./index.php" class="brand-logo"><img src="./images/Moose_CC_Logo_23May2016.png" width="100" height="75" alt="Logo"></a>-->
     <ul class="right hide-on-med-and-down">
-      <li class="home"><a id="home" href="/">Home</a></li>
+      <li class="home active"><a id="home" href="/">Home</a></li>
       <li class="women"><a id="women" href="/women/product-grid.php">Women</a></li>
       <li class="men"><a id="men" href="/men/product-grid.php">Men</a></li>
       <li class="about"><a id="about" href="/about.php">About Us</a></li>

@@ -5,47 +5,34 @@
     $('.parallax').parallax();
 
   }); // end of document ready
-
-
-
-  // function setactive(setActive) {
-  //   // if (title[1] == setActive) {
-  //   if ($(".hide-on-med-and-down li").hasClass("active")) {
-  //     $(".hide-on-med-and-down li").removeClass("active");
-  //     console.log("===> "+setActive);
-  //   }
-  //     if(setActive) {
-  //      $("." + setActive).addClass("active");
-  //     }
-  //   // }
-  // }
-  //
-  // $(function(){
-  //   $(".hide-on-med-and-down a").click(function () {
-  //    setactive(this.id);
-  //   });
-  //});
 })(jQuery); // end of jQuery name space
 
 $(document).ready(function () {
+  // console.log($(document).find("title").text());
   var title = $(document).find("title").text().split("::");
-  console.log(title[1]);
-
-  function setActiveLink(setActive){
-    console.log('====x> '+setActive);
-    if ($("nav ul li").hasClass('active')) {
-      $("nav ul li").removeClass('active');
-    }
-
-    if (setActive)
-      $("nav ul li."+ setActive).addClass('active');
-    console.log("." + setActive);
-    //   $(".hide-on-med-and-down li ."+setActive).addClass('active');
+  if (title[1]=='cart'){
+    removeCls();
+    $('nav ul li.cart').addClass('active');
+  } else if(title[1]=='women'){
+    removeCls();
+    $('nav ul li.women').addClass('active');
+  } else if (title[1]=='men'){
+    removeCls();
+    $('nav ul li.men').addClass('active');
+  }else if (title[1]=='about us'){
+    removeCls();
+    $('nav ul li.about').addClass('active');
+  }else if (title[1]=='contact'){
+    removeCls();
+    $('nav ul li.contact').addClass('active');
+  }else{
+    removeCls();
+    $('nav ul li.home').addClass('active');
   }
 
-  $(function() {
-    $("a").click(function() {
-      setActiveLink(this.id);
-    });
-  });
-})
+  function removeCls() {
+    if($('nav ul li').hasClass('active')) {
+      $('nav ul li').removeClass('active');
+    }
+  }
+});

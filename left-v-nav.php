@@ -1,11 +1,11 @@
 <ul id="slide-out" class="side-nav lv-nav fixed">
-    <li class="bold"><a href="#!" class="waves-effect waves-teal">New Arrivals</a></li>
-    <li class="bold"><a href="#!" class="waves-effect waves-teal">Best Sallers</a></li>
-    <li class="bold"><a href="#!" class="waves-effect waves-teal">Best Deals</a></li>
+    <li class="bold"><a href="#!" class="waves-teal">New Arrivals</a></li>
+    <li class="bold"><a href="#!" class="waves-teal">Best Sallers</a></li>
+    <li class="bold"><a href="#!" class="waves-teal">Best Deals</a></li>
     <li class="no-padding">
         <ul class="collapsible collapsible-accordion">
             <li>
-                <a class="collapsible-header waves-effect waves-teal">Style<i
+                <a class="collapsible-header waves-teal">Style<i
                         class="mdi-navigation-arrow-drop-down"></i></a>
                 <div class="collapsible-body">
                     <p>
