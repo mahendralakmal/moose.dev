@@ -10,6 +10,7 @@
 $(document).ready(function () {
   // console.log($(document).find("title").text());
   var title = $(document).find("title").text().split("::");
+  console.log(title[1]);
   if (title[1]=='cart'){
     removeCls();
     $('nav ul li.cart').addClass('active');
