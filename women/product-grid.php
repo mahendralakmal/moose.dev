@@ -23,7 +23,7 @@
 
     <div id="modal1" class="modal">
         <div class="modal-content">
-            <?php include('modal-qview.phps'); ?>
+            <?php include('modal-qview.php'); ?>
             <!--<h4>Quick View</h4>
             <hr>
             <div class="col m4 s12">

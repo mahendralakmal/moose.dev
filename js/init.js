@@ -7,6 +7,7 @@
   }); // end of document ready
 })(jQuery); // end of jQuery name space
 
+//Main menu high lighting
 $(document).ready(function () {
   // console.log($(document).find("title").text());
   var title = $(document).find("title").text().split("::");
@@ -36,4 +37,35 @@ $(document).ready(function () {
       $('nav ul li').removeClass('active');
     }
   }
+
+
+
+//Left menu high lighting
+  $.urlParam = function(name){
+    var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href);
+    if (results==null){
+      return null;
+    }
+    else{
+      return results[1] || 0;
+    }
+  }
+
+  // alert($.urlParam('a'));
+  if($.urlParam('a') == 'nwarvl'){
+    $('.lft-pro-nav li').removeClass('active');
+    $('.lft-pro-nav li.nwarvl').addClass('active');
+  }
+  if($.urlParam('a') == 'bstsl'){
+    $('.lft-pro-nav li').removeClass('active');
+    $('.lft-pro-nav li.bstsl').addClass('active');
+  }
+  if($.urlParam('a') == 'bstdl'){
+    $('.lft-pro-nav li').removeClass('active');
+    $('.lft-pro-nav li.bstdl').addClass('active');
+  }
+
+  $('a#stl').click(function () {
+    $('.lft-pro-nav li').removeClass('active');
+  });
 });

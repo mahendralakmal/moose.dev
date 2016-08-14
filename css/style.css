@@ -200,6 +200,35 @@ nav ul .about:hover, nav ul .about:focus{
   background-color: transparent !important;
 }
 
+.hide-on-med-and-down .active a{
+  font-size: 1.2rem;
+}
+
+.side-nav {width: 50% !important;}
+
+.lft-pro-nav .active a{
+  font-size: 1.2rem;
+}
+.nwarvl:hover,.nwarvl.active {
+border-bottom: 3px solid #e88182;
+font-weight: bold;
+  font-size: 1.2rem;
+}
+.bstsl:hover,.bstsl.active{
+   border-bottom: 3px solid #588b4a;
+  font-weight: bold;
+  font-size: 1.2rem;
+ }
+.bstdl:hover,.bstdl.active{
+  border-bottom: 3px solid #f4a31e;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+a#stl:hover,a#stl.active{
+  border-bottom: 3px solid #58b7dc;
+  font-weight: bold;
+}
+
 nav ul .cart {
   line-height: 0px;
 }
