@@ -46,7 +46,6 @@
     <div class="footer-copyright">
         <div class="container">
             Made by <a class="brown-text text-lighten-3" href="">Mahendra Karanduwawala</a>
-
         </div>
     </div>
 </footer>
@@ -55,8 +54,6 @@
     $(document).ready(function () {
         $('.slider').slider('start');
         $('.slider').slider({full_width: true});
-
-
         //MODAL POPUP
         $('.modal-trigger').leanModal({
             dismissible: true, // Modal can be dismissed by clicking outside of the modal
@@ -66,11 +63,7 @@
             starting_top: '4%', // Starting top style attribute
             ending_top: '10%', // Ending top style attribute
         });
-
-        
     });
-
-
     $('.button-collapse').sideNav({
         menuWidth: 300,
         closeOnClick: true
@@ -79,7 +72,6 @@
 </script>
 <script src="http://code.jquery.com/jquery-latest.js"></script>
 <script>
-
     $(document).ready(function(){
         $(".card-image").bind('mouseover',function(event){
             $(this).prev(".quickview").stop(true,true).fadeIn(100);
@@ -88,7 +80,6 @@
         });
     });
 </script>
-
 <!--  Scripts-->
 <script src="/js/materialize.js"></script>
 <script src="/js/init.js"></script>
